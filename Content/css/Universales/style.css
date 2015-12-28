@@ -1,0 +1,20 @@
+/* Menu */
+.header{
+	background: pink;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.btnPi{
+	
+}
+/* componentes */
+.marginNull{
+	margin:0;
+}
+/* Test */
+.pink{
+	background: pink;
+}
+.green{
+	background: green;
+}
