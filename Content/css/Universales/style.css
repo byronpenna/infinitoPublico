@@ -1,15 +1,41 @@
 /* Menu */
-.header{
-	background: pink;
-	padding-top: 1%;
-	padding-bottom: 1%;
-}
-.btnPi{
-	
-}
+	.header{
+		background: pink;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	/* Boton login  */
+		.divBtnHead{
+			padding-right: 2%;
+			padding-left: 2%;
+		}
+			.btnLogin{
+				font-weight: bold;
+				color: white;
+			}
+			.btnSq{
+				border-radius: 0;
+			}
+			.btnPi{
+				background: #7a87be;
+			}
+	.divImgLogo{
+		text-align: center;
+	}
+		.imgLogo{
+			width: 30%;
+		}
+	.divInputSeach{
+		padding-left: 3%;
+	}
 /* componentes */
 .marginNull{
 	margin:0;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 /* Test */
 .pink{
