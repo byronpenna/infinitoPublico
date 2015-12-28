@@ -19,6 +19,28 @@
 			<img src=<?php echo base_url("Content/img/generales/slider/paisajeCor.png") ?> >
 		</div>
 	</header>
+	<div class="cuerpo row marginNull">
+		<div class="col-lg-4">
+			<div class="divNoticia">
+				<h2>Tomar fotografias ayuda al autoestima</h2>
+				<div class="row marginNull">
+					<p>
+						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="noticia">
+				
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="noticia">
+				
+			</div>
+		</div>
+	</div>
 	<!-- Otra carga -->
 		<?php 
 			// scripts universales
