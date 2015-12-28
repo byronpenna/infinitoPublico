@@ -1,0 +1,13 @@
+/* Menu */
+	.header{
+		background: #ecf0f1;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		position: absolute;
+		opacity: 0.85;
+	}
+	
+/* Slider */
+	.divSlider img{
+		width: 100%;
+	}

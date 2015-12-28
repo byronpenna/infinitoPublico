@@ -15,6 +15,9 @@
 			// menu universal 
 			$this->load->view("parts/menu.php");
 		?>
+		<div class="divSlider row marginNull">
+			<img src=<?php echo base_url("Content/img/generales/slider/paisajeCor.png") ?> >
+		</div>
 	</header>
 	<!-- Otra carga -->
 		<?php 

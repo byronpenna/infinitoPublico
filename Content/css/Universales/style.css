@@ -1,9 +1,4 @@
 /* Menu */
-	.header{
-		background: pink;
-		padding-top: 1%;
-		padding-bottom: 1%;
-	}
 	/* Boton login  */
 		.divBtnHead{
 			padding-right: 2%;
@@ -23,24 +18,43 @@
 		text-align: center;
 	}
 		.imgLogo{
-			width: 30%;
+			width: 50%;
 		}
 	.divInputSeach{
 		padding-left: 3%;
 	}
+	/* Nav menu */
+	.navMenu{
+		
+		display: inline-block;
+		width: 90%;
+	}
+	.navMenu ul li{
+		display: inline-block;
+		padding: 2%;
+		margin: 0;
+		width: 30%;
+		text-align: center;
+		color: black;
+		list-style: none;
+	}
 /* componentes */
-.marginNull{
-	margin:0;
-}
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
+	.marginNull{
+		margin:0;
+	}
+	.vcenter {
+	    display: inline-block;
+	    vertical-align: middle;
+	    float: none;
+	}
+
 /* Test */
-.pink{
-	background: pink;
-}
-.green{
-	background: green;
-}
+	.pink{
+		background: pink;
+	}
+	.green{
+		background: green;
+	}
+	.red{
+		background: red;
+	}
