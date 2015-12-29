@@ -1,11 +1,72 @@
-@media (min-width: 400px) and (max-width:1199px) {
+@media (max-width:1199px) {
 	.divLogoOculto{
 		display: block;
-	}
-	.divLogoOculto img{
-		width: 5%;
+		text-align: center;
 	}
 	.divImgLogo{
 		display: none;
+	}
+}
+@media (max-width:500px) {
+	.divInputsMenu{
+		margin-bottom: 5%;
+		padding: 0;
+	}
+	.divInputSeach{
+		padding: 0;
+	}
+	.navMenu{
+		width: 100%;
+	}
+	.navMenu ul li a{
+		font-size: 1.2em;
+	}
+	
+}
+
+/* Especificos */
+@media (min-width: 992px) and (max-width:1199px) {
+	.divLogoOculto img{
+		width: 10%;
+	}
+	
+}
+@media (min-width: 768px) and (max-width:992px) {
+	.divLogoOculto img{
+		width: 15%;
+	}
+	.navMenu{
+		width: 100%;
+	}
+	.navMenu ul li a{
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 400px) and (max-width:767px) {
+	.divLogoOculto img{
+		width: 20%;
+		margin-bottom: 3%;
+	}
+	.divBtnHead{
+		text-align: center;
+	}
+	.navMenu{
+		/*background: pink;*/
+		width: 100%;
+		margin-top: 2%;
+	}
+}
+@media (min-width: 200px) and (max-width:500px) {
+	.divLogoOculto img{
+		width: 40%;
+	}
+	.divContenedorMenu{
+		padding: 0;
+	}
+	.navMenu ul{
+		padding: 0;
+	}
+	.navMenu ul li{
+		width: 32%;
 	}
 }

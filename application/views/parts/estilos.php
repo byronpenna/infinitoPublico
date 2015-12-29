@@ -1,3 +1,5 @@
+<!-- meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Fav ico --> 
 	<link rel="icon" href=<?php echo base_url("Content/img/generales/LOGO1azul.ico") ?> type="image/gif">
 <!-- css -->

@@ -1,0 +1,17 @@
+/* Reglas */
+	@media (max-width:1199px) {
+		.header{
+			position: static;
+			opacity: 1;
+		}	
+	}
+/* Especificos */
+	@media (min-width: 992px) and (max-width:1199px) {
+		.divNoticia h2{
+			font-size: 1.2em;
+		}
+		.divNoticia{
+			padding-left: 4%;
+			padding-right: 4%;
+		}
+	}

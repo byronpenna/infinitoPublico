@@ -5,11 +5,11 @@
 		</a>
 	</div>
 	<div class="row marginNull">
-		<div class="col-lg-5 col-md-5 vcenter">
-			<div class="col-lg-4 divBtnHead">
+		<div class="divInputsMenu col-lg-5 col-lg-offset-0 col-md-offset-1 col-md-5 col-sm-6 col-xs-12 vcenter">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 divBtnHead">
 				<button class="btn btnSq btnPi btnLogin ">Iniciar sesión</button>	
 			</div>
-			<div class="col-lg-8 divInputSeach">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 divInputSeach">
 				<div class="input-group">
 				  <span class="input-group-addon">
 				  	<i class="fa fa-search"></i>
@@ -23,7 +23,7 @@
 				<img class='imgLogo' src=<?php echo base_url("Content/img/generales/LOGO1azul.png") ?> >
 			</a>
 		</div><!--
-	    --><div class="col-lg-5 col-md-5 vcenter">
+	    --><div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 vcenter divContenedorMenu">
 			<div class="row marginNull">
 				<nav class='navMenu'>
 					<ul>
