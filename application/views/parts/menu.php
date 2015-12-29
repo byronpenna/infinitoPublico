@@ -13,14 +13,16 @@
 		</div>
 	</div><!--
     --><div class="col-lg-2 divImgLogo vcenter ">
-		<img class='imgLogo' src=<?php echo base_url("Content/img/generales/LOGO1azul.png") ?> >
+		<a href=<?php echo site_url("Welcome") ?> >
+			<img class='imgLogo' src=<?php echo base_url("Content/img/generales/LOGO1azul.png") ?> >
+		</a>
 	</div><!--
     --><div class="col-lg-5 vcenter">
 		<div class="row marginNull">
 			<nav class='navMenu'>
 				<ul>
 					<li>
-						<a href="#">Conocenos</a>
+						<a href=<?php echo site_url("Conocenos") ?> >Conocenos</a>
 					</li>
 					<li>
 						<a href="#">Articulos</a>

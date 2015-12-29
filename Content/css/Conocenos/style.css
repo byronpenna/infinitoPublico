@@ -1,0 +1,18 @@
+/* Cuerpo */
+.divIntroGlobal{
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 90%;
+
+}
+.cuerpo{
+	min-height: 600px;
+	width: 95%;
+	margin: 0 auto;
+}
+.tituloPrincipal{
+	text-align: center;
+}
+.introConocenos{
+	text-align: justify;
+}

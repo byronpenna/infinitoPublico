@@ -60,17 +60,18 @@
 			</div>
 		</div>
 	</div>
-	<!-- Otra carga -->
-		<?php 
-			// scripts universales
-			$this->load->view("parts/scripts.php")
-		?>
-		<script type="text/javascript" src=<?php echo base_url("Content/js/Welcome/script.js") ?> ></script>
 	<footer class='footerRight row marginNull'>
 		<?php 
 			// footer universal
 			$this->load->view("parts/footer.php");
 		?>
 	</footer>
+	<!-- Otra carga -->
+		<?php 
+			// scripts universales
+			$this->load->view("parts/scripts.php")
+		?>
+		<script type="text/javascript" src=<?php echo base_url("Content/js/Welcome/functions.js") ?> ></script>
+		<script type="text/javascript" src=<?php echo base_url("Content/js/Welcome/script.js") ?> ></script>
 </body>
 </html>
