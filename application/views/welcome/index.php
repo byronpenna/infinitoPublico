@@ -24,6 +24,9 @@
 			<div class="divNoticia">
 				<h2>Tomar fotografias ayuda al autoestima</h2>
 				<div class="row marginNull">
+					<div class="row marginNull containerImgNoticia">
+						<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/noticias/prueba.png") ?> >	
+					</div>
 					<p>
 						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
 					</p>
@@ -31,13 +34,29 @@
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="noticia">
-				
+			<div class="divNoticia">
+				<h2>Tomar fotografias ayuda al autoestima</h2>
+				<div class="row marginNull">
+					<div class="row marginNull containerImgNoticia">
+						<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/noticias/prueba.png") ?> >	
+					</div>
+					<p>
+						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
+					</p>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="noticia">
-				
+			<div class="divNoticia">
+				<h2>Tomar fotografias ayuda al autoestima</h2>
+				<div class="row marginNull">
+					<div class="row marginNull containerImgNoticia">
+						<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/noticias/prueba.png") ?> >	
+					</div>
+					<p>
+						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -47,5 +66,11 @@
 			$this->load->view("parts/scripts.php")
 		?>
 		<script type="text/javascript" src=<?php echo base_url("Content/js/Welcome/script.js") ?> ></script>
+	<footer class='footerRight row marginNull'>
+		<?php 
+			// footer universal
+			$this->load->view("parts/footer.php");
+		?>
+	</footer>
 </body>
 </html>
