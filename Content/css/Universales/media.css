@@ -57,6 +57,14 @@
 	}
 }
 @media (min-width: 200px) and (max-width:500px) {
+	.divBtnHead{
+		display: none;
+	}
+	.divInputSeach{
+		width: 100%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
 	.divLogoOculto img{
 		width: 40%;
 	}

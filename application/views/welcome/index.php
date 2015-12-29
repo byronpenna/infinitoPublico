@@ -22,7 +22,7 @@
 		</div>
 	</header>
 	<div class="cuerpo row marginNull">
-		<div class="col-lg-4 col-md-4 col-sm-6">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
 			<div class="divNoticia">
 				<h2>Tomar fotografias ayuda al autoestima</h2>
 				<div class="row marginNull">
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
 			<div class="divNoticia">
 				<h2>Tomar fotografias ayuda al autoestima</h2>
 				<div class="row marginNull">
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
 			<div class="divNoticia">
 				<h2>Tomar fotografias ayuda al autoestima</h2>
 				<div class="row marginNull">
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 	<footer class='footerRight row marginNull'>
 		<?php 
