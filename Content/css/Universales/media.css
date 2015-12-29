@@ -1,0 +1,11 @@
+@media (min-width: 400px) and (max-width:1199px) {
+	.divLogoOculto{
+		display: block;
+	}
+	.divLogoOculto img{
+		width: 5%;
+	}
+	.divImgLogo{
+		display: none;
+	}
+}
