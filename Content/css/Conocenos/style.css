@@ -1,0 +1,27 @@
+/* Cuerpo */
+.divValores,.divIntroGlobal{
+	width: 90%;
+	margin: 0 auto;
+}
+.imgValor,.divValor h3{
+	text-align: center;
+}
+.divValor{
+	text-align: justify;
+	margin-top: 5%;
+}
+.divIntroGlobal{
+	
+	margin-top: 5%;
+}
+.cuerpo{
+	min-height: 600px;
+	width: 95%;
+	margin: 0 auto;
+}
+.tituloPrincipal{
+	text-align: center;
+}
+.introConocenos{
+	text-align: justify;
+}

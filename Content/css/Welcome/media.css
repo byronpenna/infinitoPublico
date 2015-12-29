@@ -1,0 +1,34 @@
+/* Reglas */
+	@media (max-width:1199px) {
+		.header{
+			position: static;
+			opacity: 1;
+		}	
+	}
+/* Especificos */
+	/* Boostrap */
+		@media (min-width: 992px) and (max-width:1199px) {
+			.divNoticia h2{
+				font-size: 1.2em;
+			}
+			.divNoticia{
+				padding-left: 4%;
+				padding-right: 4%;
+			}
+		}
+		@media (min-width: 400px) and (max-width:767px) {
+			.divNoticia{
+				height: auto;
+				width: 95%;
+				padding-bottom: 5%;
+			}
+		}
+	/* Extras */
+		@media (min-width: 200px) and (max-width:600px) {
+			.colNoticia{
+				width: 100%;
+			}
+			.divNoticia{
+				width: 85%;
+			}
+		}
