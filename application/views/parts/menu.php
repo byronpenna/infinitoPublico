@@ -1,5 +1,10 @@
+<div class="divLogoOculto">
+	<a href=<?php echo site_url("Welcome") ?> >
+		<img class='imgLogo' src=<?php echo base_url("Content/img/generales/LOGO1azul.png") ?> >
+	</a>
+</div>
 <div class="row marginNull header">
-	<div class="col-lg-5 vcenter">
+	<div class="col-lg-5 col-md-5 vcenter">
 		<div class="col-lg-4 divBtnHead">
 			<button class="btn btnSq btnPi btnLogin ">Iniciar sesión</button>	
 		</div>
@@ -12,12 +17,12 @@
 			</div>	
 		</div>
 	</div><!--
-    --><div class="col-lg-2 divImgLogo vcenter ">
+    --><div class="col-lg-2 col-md-2 divImgLogo vcenter ">
 		<a href=<?php echo site_url("Welcome") ?> >
 			<img class='imgLogo' src=<?php echo base_url("Content/img/generales/LOGO1azul.png") ?> >
 		</a>
 	</div><!--
-    --><div class="col-lg-5 vcenter">
+    --><div class="col-lg-5 col-md-5 vcenter">
 		<div class="row marginNull">
 			<nav class='navMenu'>
 				<ul>

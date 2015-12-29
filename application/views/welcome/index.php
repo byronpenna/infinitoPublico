@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Inicio</title>
+	
 	<?php
 		// estilos universales
 			$this->load->view("parts/estilos.php");

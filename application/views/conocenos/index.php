@@ -29,7 +29,31 @@
 			</div>	
 		</div>
 		<div class="divValores">
-			
+			<div class="col-lg-6">
+				<div class="divValor">
+					<div class="imgValor">
+						<img src=<?php echo base_url("Content/img/paginas/conocenos/trofeo.png") ?> >
+					</div>
+					<h3>Misión</h3>
+					<p>
+						Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+						archivos de texto.
+					</p>	
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="divValor">
+					<div class="imgValor">
+						<img src=<?php echo base_url("Content/img/paginas/conocenos/rocket.png") ?> >
+					</div>
+					<h3>Visión</h3>
+					<p>
+						Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+						archivos de texto.
+					</p>	
+				</div>
+				
+			</div>
 		</div>
 	</div>
 	<footer class='footerRight row marginNull'>
