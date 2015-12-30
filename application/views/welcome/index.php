@@ -29,19 +29,21 @@
 			foreach ($noticias as $key => $noticia) {
 		?>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
-				<div class="divNoticia">
-					<h2><?php echo $noticia->titulo ?></h2>
-					<div class="row marginNull">
-						<div class="row marginNull containerImgNoticia">
-							<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/image.png") ?> >	
+				<a href=<?php echo site_url("noticias/noticia/".$noticia->idNoticia) ?> >
+					<div class="divNoticia">
+						<h2><?php echo $noticia->titulo ?></h2>
+						<div class="row marginNull">
+							<div class="row marginNull containerImgNoticia">
+								<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/image.png") ?> >	
+							</div>
+							<p>
+								<?php
+									echo $noticia->breve_descripcion;
+								?>
+							</p>
 						</div>
-						<p>
-							<?php
-								echo $noticia->breve_descripcion;
-							?>
-						</p>
 					</div>
-				</div>
+				</a>
 			</div>
 		<?php 
 			}
