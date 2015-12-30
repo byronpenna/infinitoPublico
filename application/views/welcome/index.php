@@ -29,7 +29,7 @@
 			foreach ($noticias as $key => $noticia) {
 		?>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
-				<a href=<?php echo site_url("noticias/noticia/".$noticia->idNoticia) ?> >
+				<a class="aNoticia" href=<?php echo site_url("noticias/noticia/".$noticia->idNoticia) ?> >
 					<div class="divNoticia">
 						<h2><?php echo $noticia->titulo ?></h2>
 						<div class="row marginNull">
