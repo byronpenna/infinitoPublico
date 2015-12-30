@@ -18,7 +18,7 @@
 			$this->load->view("parts/menu.php");
 		?>
 		<div class="divSlider row marginNull">
-			<img src=<?php echo base_url("Content/img/generales/slider/paisajeCor.png") ?> >
+			<img src=<?php echo base_url("Content/img/generales/slider/paisajeCor2.png") ?> >
 		</div>
 	</header>
 	<?php 
