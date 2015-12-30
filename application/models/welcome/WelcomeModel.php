@@ -14,4 +14,7 @@ class WelcomeModel extends CI_Model
 		$noticias 	= $query->result();
 		return $noticias;
 	}
+	// public function getNoticia($id){
+		
+	// }
 }
