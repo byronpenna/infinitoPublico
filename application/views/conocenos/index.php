@@ -29,7 +29,7 @@
 			</div>	
 		</div>
 		<div class="divValores">
-			<div class="col-lg-6">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 				<div class="divValor">
 					<div class="imgValor">
 						<img src=<?php echo base_url("Content/img/paginas/conocenos/trofeo.png") ?> >
@@ -41,7 +41,7 @@
 					</p>	
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 				<div class="divValor">
 					<div class="imgValor">
 						<img src=<?php echo base_url("Content/img/paginas/conocenos/rocket.png") ?> >

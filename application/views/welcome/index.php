@@ -21,8 +21,32 @@
 			<img src=<?php echo base_url("Content/img/generales/slider/paisajeCor.png") ?> >
 		</div>
 	</header>
+	<?php 
+		//print_r($noticias);
+	?>
 	<div class="cuerpo row marginNull">
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
+		<?php 
+			foreach ($noticias as $key => $noticia) {
+		?>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
+				<div class="divNoticia">
+					<h2><?php echo $noticia->titulo ?></h2>
+					<div class="row marginNull">
+						<div class="row marginNull containerImgNoticia">
+							<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/image.png") ?> >	
+						</div>
+						<p>
+							<?php
+								echo $noticia->breve_descripcion;
+							?>
+						</p>
+					</div>
+				</div>
+			</div>
+		<?php 
+			}
+		?>
+		<!-- <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 colNoticia">
 			<div class="divNoticia">
 				<h2>Tomar fotografias ayuda al autoestima</h2>
 				<div class="row marginNull">
@@ -60,7 +84,7 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 	</div>
 	<footer class='footerRight row marginNull'>
