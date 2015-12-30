@@ -33,7 +33,7 @@
 					<h2><?php echo $noticia->titulo ?></h2>
 					<div class="row marginNull">
 						<div class="row marginNull containerImgNoticia">
-							<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/noticias/prueba.png") ?> >	
+							<img class='imgNoticia' src=<?php echo base_url("Content/img/generales/image.png") ?> >	
 						</div>
 						<p>
 							<?php
