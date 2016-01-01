@@ -15,7 +15,9 @@ class Noticias extends CI_Controller
 
 	}
 	public function noticia($id){
-		$noticia = 
-		$this->load->view("noticias/noticia.php");
+		//echo "hola";
+		$noticia 	= $this->model->getNoticia($id);
+		$data 		= array('noticia' => $noticia[0] );
+		$this->load->view("noticias/noticia.php",$data);
 	}
 }
