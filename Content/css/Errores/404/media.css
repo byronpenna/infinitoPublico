@@ -1,0 +1,27 @@
+/* Especificos */
+	/* Extras */		
+	@media (min-width: 675px) and (max-width:767px) {
+		.divImageWarning{
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+	}
+	@media (min-width: 200px) and (max-width:674px) {
+		.divImageWarning{
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+		body{
+			background: pink;
+		}
+		.divImageWarning img{
+			width: 30%;
+		}
+		.divImageWarning h3{
+			font-size: 1em;
+		}
+		.divImageWarning h4{
+			font-size: 0.8em;
+		}
+	}
+	
