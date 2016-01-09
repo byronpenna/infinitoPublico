@@ -26,6 +26,9 @@
 				?>
 			</div>	
 		</div>
+		<div class="col-lg-3">
+			<div class="fb-share-button" data-href=<?php echo site_url("Noticias/noticia/".$noticia->idNoticia) ?> data-layout="button_count"></div>
+		</div>
 	</div>
 	<footer class='footerRight row marginNull'>
 		<?php 
@@ -38,4 +41,12 @@
 		$this->load->view("parts/scripts.php")
 	?>
 </body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </html>

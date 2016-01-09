@@ -28,13 +28,13 @@
 				<nav class='navMenu'>
 					<ul>
 						<li>
-							<a href=<?php echo site_url("Conocenos") ?> >Conocenos</a>
+							<a href=<?php echo site_url("Conocenos") ?> >Conócenos</a>
 						</li>
 						<li>
-							<a href="#">Articulos</a>
+							<a href="#">Artículos</a>
 						</li>
 						<li>
-							<a href="#">Contactanos</a>
+							<a href="#">Contáctanos</a>
 						</li>
 					</ul>
 				</nav>

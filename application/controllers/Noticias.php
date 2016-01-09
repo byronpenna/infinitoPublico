@@ -12,7 +12,9 @@ class Noticias extends CI_Controller
 	}
 	public function index(){
 		// muestra todas las noticias
-
+	}
+	public function setMiniatura(){
+				
 	}
 	public function noticia($id){
 		//echo "hola";
