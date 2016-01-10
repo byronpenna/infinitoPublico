@@ -1,10 +1,16 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title><?php echo $noticia->titulo ?></title>
 	<?php
+		if($noticia->miniatura != ""){
+			$data = array('imgFb' => $noticia->miniatura );	
+		}else{
+			$data = array();
+		}
 		// estilos universales
-			$this->load->view("parts/estilos.php");
+			$this->load->view("parts/estilos.php",$data);
 	?>
 	<!-- Recursos -->
 		<link rel="stylesheet" type="text/css" href=<?php echo base_url("Content/css/noticias/noticia/style.css") ?> >

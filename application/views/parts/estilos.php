@@ -1,7 +1,15 @@
+<?php 
+	if(isset($imgFb)){
+		$imgFbDefault = $imgFb;
+	}else{
+		$imgFbDefault = base_url("Content/img/generales/LOGO1azul.ico");
+	}
+	
+?>
 <!-- meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- imagen de facebook-->
-		<meta property="og:image" content=<?php echo base_url("Content/img/generales/LOGO1azul.ico") ?> />
+		<meta property="og:image" content=<?php echo $imgFbDefault ?> />
 <!-- Fav ico --> 
 	<link rel="icon" href=<?php echo base_url("Content/img/generales/LOGO1azul.ico") ?> type="image/gif">
 <!-- css -->
