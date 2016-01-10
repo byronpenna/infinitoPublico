@@ -20,6 +20,7 @@ class Noticias extends PadreController
 			//echo "hola";
 			$noticia 	= $this->model->getNoticia($id);
 			$data 		= array('noticia' => $noticia[0] );
+			
 			$this->load->view("noticias/noticia.php",$data);
 		}
 }
